@@ -17,7 +17,7 @@
 	<img alt="Patreon" src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="50" />
 </a>
 </p>
-<p>Vue-x-Socket.io is a socket.io integration for Vuejs, easy to use, supporting Vuex and component level socket consumer managements.<p>
+<p>Vue-x-Socket.io is a socket.io integration for Vue2/Vue3, easy to use, supporting Vuex and component level socket consumer managements.<p>
 
 #### 🚀 Installation
 ``` bash
