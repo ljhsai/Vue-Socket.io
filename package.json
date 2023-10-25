@@ -3,8 +3,16 @@
   "author": "Metin Seylan <metinsyln@gmail.com>, luson <ljhxai@163.com>",
   "version": "1.0.0",
   "description": "socket.io implementation for Vue.js and Vuex",
-  "main": "dist/vue-socketio.js",
+  "main": "dist/vue-x-socketio.js",
   "type": "module",
+  "files": ["dist"],
+  "module": "./dist/vue-x-socketio.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-x-socketio.js",
+      "require": "./dist/vue-x-socketio.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
