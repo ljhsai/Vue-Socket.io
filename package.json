@@ -15,7 +15,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "repository": {
@@ -45,9 +45,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "typescript": "^5.0.2",
     "vite": "^4.4.5",
-    "vue-tsc": "^1.8.5",
     "socket.io": "^4.7.2"
   }
 }

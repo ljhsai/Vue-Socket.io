@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/ljhsai/Vue-Socket.io" target="_blank">
-    <img width="250" src="https://raw.githubusercontent.com/ljhsai/Vue-Socket.io/master/public/logo.png">
+    <img width="250" src="https://raw.githubusercontent.com/ljhsai/Vue-Socket.io/master/img/logo.png">
     </a>
 </p> 
 
@@ -17,26 +17,18 @@
 	<img alt="Patreon" src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="50" />
 </a>
 </p>
-<p>Vue-Socket.io is a socket.io integration for Vuejs, easy to use, supporting Vuex and component level socket consumer managements.<p>
-
-###### Demo
-- <a href="http://metinseylan.com/vuesocketio/" target="_blank">Chat Application</a>
-- <a href="http://metinseylan.com" target="_blank">Car Tracking Application</a>
-<p>You can also check my other npm library <a href="https://github.com/ljhsai/Nestjs-OpenTelemetry">Nestjs OpenTelemetry</a></p>
-<p>
-are you looking for old documentation? <a href="https://github.com/ljhsai/Vue-Socket.io/blob/master/docs/OLD_README.md">it's here</a>
-</p>
+<p>Vue-x-Socket.io is a socket.io integration for Vuejs, easy to use, supporting Vuex and component level socket consumer managements.<p>
 
 #### 🚀 Installation
 ``` bash
-npm install vue-socket.io --save
+npm install vue-x-socket.io --save
 ```
 ##### Using Connection String
 ``` javascript
 import Vue from 'vue'
 import store from './store'
 import App from './App.vue'
-import VueSocketIO from 'vue-socket.io'
+import VueSocketIO from 'vue-x-socket.io'
 
 Vue.use(new VueSocketIO({
     debug: true,
@@ -61,7 +53,7 @@ new Vue({
 import Vue from 'vue'
 import store from './store'
 import App from './App.vue'
-import VueSocketIO from 'vue-socket.io'
+import VueSocketIO from 'vue-x-socket.io'
 import SocketIO from 'socket.io-client'
 
 const options = { path: '/my-app/' }; //Options object to pass into SocketIO
@@ -157,7 +149,7 @@ export default {
 ```
 
 #### 🏆 Vuex Integration
-<p>When you set store parameter in installation, `Vue-Socket.io` will start sending events to Vuex store. If you set both prefix for vuex, you can use `actions` and `mutations` at the same time. But, best way to use is just `actions`</p>
+<p>When you set store parameter in installation, `vue-x-socket.io` will start sending events to Vuex store. If you set both prefix for vuex, you can use `actions` and `mutations` at the same time. But, best way to use is just `actions`</p>
 
 ``` javascript
 import Vue from 'vue'
@@ -181,8 +173,6 @@ export default new Vuex.Store({
 ```
 
 ## Stargazers over time
-
-[![Stargazers over time](https://starcharts.herokuapp.com/ljhsai/Vue-Socket.io.svg)](https://starcharts.herokuapp.com/ljhsai/Vue-Socket.io)
    
 
 <p align="center">

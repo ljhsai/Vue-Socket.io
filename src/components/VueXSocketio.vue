@@ -11,18 +11,16 @@ export default {
       console.log('socket connected')
       this.connectText = 'socket disconnect'
     },
-    message(msg: any) {
+    hello(msg: string) {
       console.log('server msg', msg);
-      this.something.push('server=>' + msg)
+      this.something.push(msg)
     }
   },
 
   data() {
     return {
       connectText: 'socket connecting',
-      something: [
-        // ... something here for the data if you need.
-      ]
+      something: [] as Array<string>
     }
   },
 
@@ -34,7 +32,8 @@ export default {
 
   methods: {
     btnSend() {
-      this.$socket.send('client');
+      console.log('send')
+      this.$socket.emit('hello', 'hello server');
     }
   }
 }
@@ -44,6 +43,7 @@ export default {
 <template>
   <h3>vue-x-socketio</h3>
   <div>{{ connectText }}</div>
+  <button type="button" @click="btnSend">发送</button>
   <div class="card">
       <div v-for="str in something">{{ str }}</div>
   </div>

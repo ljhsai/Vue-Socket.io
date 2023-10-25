@@ -3,11 +3,6 @@ import VueXSocketio from './components/VueXSocketio.vue'
 </script>
 
 <template>
-  <div>
-    <a href="https://github.com/ljhsai/Vue-Socket.io" target="_blank">
-      <img src="/logo.png" class="logo" alt="vue-x-socketio logo" />
-    </a>
-  </div>
   <VueXSocketio />
 </template>
 

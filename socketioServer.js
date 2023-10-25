@@ -6,8 +6,14 @@ const io = new Server(8089, {
     }
 });
 
+
 io.on("connection", (socket) => {
-    socket.send('hello vue-x-socketio');
+    console.log(socket.id + ' connected');
+
+    socket.on('hello', msg=> {
+        console.log(socket.id, msg);
+        socket.emit('hello', 'hello client');
+    })
 });
 
 console.log('socket.io server is running!')
