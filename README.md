@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://github.com/MetinSeylan/Vue-Socket.io" target="_blank">
-    <img width="250" src="https://raw.githubusercontent.com/MetinSeylan/Vue-Socket.io/master/docs/logo.png">
+    <a href="https://github.com/ljhsai/Vue-Socket.io" target="_blank">
+    <img width="250" src="https://raw.githubusercontent.com/ljhsai/Vue-Socket.io/master/docs/logo.png">
     </a>
 </p> 
 
@@ -9,11 +9,11 @@
   <a href="https://github.com/vuejs/awesome-vue"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"/></a>
   <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/vue-2.x-brightgreen.svg"/></a>
   <a href="http://packagequality.com/#?package=vue-socket.io"><img src="http://npm.packagequality.com/shield/vue-socket.io.svg"/></a>
-  <a href="https://github.com/MetinSeylan/Vue-Socket.io/"><img src="https://img.shields.io/npm/l/vue-socket.io.svg"/></a>
-  <a href="https://github.com/MetinSeylan/Vue-Socket.io/"><img src="https://img.shields.io/github/stars/MetinSeylan/Vue-Socket.io.svg"/></a>
+  <a href="https://github.com/ljhsai/Vue-Socket.io/"><img src="https://img.shields.io/npm/l/vue-socket.io.svg"/></a>
+  <a href="https://github.com/ljhsai/Vue-Socket.io/"><img src="https://img.shields.io/github/stars/ljhsai/Vue-Socket.io.svg"/></a>
 </p>
 <p align="center">
-<a href="https://www.patreon.com/MetinSeylan">
+<a href="https://www.patreon.com/ljhsai">
 	<img alt="Patreon" src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="50" />
 </a>
 </p>
@@ -22,9 +22,9 @@
 ###### Demo
 - <a href="http://metinseylan.com/vuesocketio/" target="_blank">Chat Application</a>
 - <a href="http://metinseylan.com" target="_blank">Car Tracking Application</a>
-<p>You can also check my other npm library <a href="https://github.com/MetinSeylan/Nestjs-OpenTelemetry">Nestjs OpenTelemetry</a></p>
+<p>You can also check my other npm library <a href="https://github.com/ljhsai/Nestjs-OpenTelemetry">Nestjs OpenTelemetry</a></p>
 <p>
-are you looking for old documentation? <a href="https://github.com/MetinSeylan/Vue-Socket.io/blob/master/docs/OLD_README.md">it's here</a>
+are you looking for old documentation? <a href="https://github.com/ljhsai/Vue-Socket.io/blob/master/docs/OLD_README.md">it's here</a>
 </p>
 
 #### 🚀 Installation
@@ -182,11 +182,11 @@ export default new Vuex.Store({
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starcharts.herokuapp.com/MetinSeylan/Vue-Socket.io.svg)](https://starcharts.herokuapp.com/MetinSeylan/Vue-Socket.io)
+[![Stargazers over time](https://starcharts.herokuapp.com/ljhsai/Vue-Socket.io.svg)](https://starcharts.herokuapp.com/ljhsai/Vue-Socket.io)
    
 
 <p align="center">
-    <a href="https://github.com/MetinSeylan/Vue-Socket.io" target="_blank">
+    <a href="https://github.com/ljhsai/Vue-Socket.io" target="_blank">
     <img src="https://media.giphy.com/media/11jlnltQgUi2mQ/giphy.gif">
     </a>
 </p> 
