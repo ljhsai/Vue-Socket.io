@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ljhsai/Vue-Socket.io.git"
+    "url": "git+https://github.com/ljhsai/Vue-X-Socket.io.git"
   },
   "keywords": [
     "vuejs",
@@ -36,9 +36,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ljhsai/Vue-Socket.io/issues"
+    "url": "https://github.com/ljhsai/Vue-X-Socket.io/issues"
   },
-  "homepage": "https://github.com/ljhsai/Vue-Socket.io",
+  "homepage": "https://github.com/ljhsai/Vue-X-Socket.io",
   "dependencies": {
     "vue": "^3.3.4",
     "socket.io-client": "^4.7.2"

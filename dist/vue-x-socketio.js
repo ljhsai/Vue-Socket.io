@@ -2382,7 +2382,7 @@ class dt {
    * @param Vue
    */
   install(e) {
-    Number(e.version.split(".")[0]) >= 3 ? (e.config.globalProperties.$socket = this.io, e.config.globalProperties.$vueSocketIo = this) : (e.prototype.$socket = this.io, e.prototype.$vueSocketIo = this), e.mixin(_e), u.info("Vue-Socket.io plugin enabled");
+    Number(e.version.split(".")[0]) >= 3 ? (e.config.globalProperties.$socket = this.io, e.config.globalProperties.$vueSocketIo = this) : (e.prototype.$socket = this.io, e.prototype.$vueSocketIo = this), e.mixin(_e), u.info("Vue-X-Socket.io plugin enabled");
   }
   /**
    * registering SocketIO instance

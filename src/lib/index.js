@@ -40,7 +40,7 @@ export default class VueSocketIO {
 
         Vue.mixin(Mixin);
 
-        Logger.info('Vue-Socket.io plugin enabled');
+        Logger.info('Vue-X-Socket.io plugin enabled');
 
     }
 
