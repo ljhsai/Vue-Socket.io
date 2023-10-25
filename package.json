@@ -1,16 +1,16 @@
 {
-  "name": "vue-x-socket.io",
+  "name": "vx-socketio",
   "author": "Metin Seylan <metinsyln@gmail.com>, luson <ljhxai@163.com>",
   "version": "1.0.0",
   "description": "socket.io implementation for Vue.js and Vuex",
-  "main": "dist/vue-x-socketio.js",
+  "main": "dist/vx-socketio.js",
   "type": "module",
   "files": ["dist"],
-  "module": "./dist/vue-x-socketio.js",
+  "module": "./dist/vx-socketio.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-x-socketio.js",
-      "require": "./dist/vue-x-socketio.umd.cjs"
+      "import": "./dist/vx-socketio.js",
+      "require": "./dist/vx-socketio.umd.cjs"
     }
   },
   "scripts": {

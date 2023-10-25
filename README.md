@@ -17,18 +17,18 @@
 	<img alt="Patreon" src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="50" />
 </a>
 </p>
-<p>Vue-x-Socket.io is a socket.io integration for Vue2/Vue3, easy to use, supporting Vuex and component level socket consumer managements.<p>
+<p>vx-socketio is a socket.io integration for Vue2/Vue3, easy to use, supporting Vuex and component level socket consumer managements.<p>
 
 #### 🚀 Installation
 ``` bash
-npm install vue-x-socket.io --save
+npm install vx-socketio --save
 ```
 ##### Using Connection String
 ``` javascript
 import Vue from 'vue'
 import store from './store'
 import App from './App.vue'
-import VueSocketIO from 'vue-x-socket.io'
+import VueSocketIO from 'vx-socketio'
 
 Vue.use(new VueSocketIO({
     debug: true,
@@ -53,7 +53,7 @@ new Vue({
 import Vue from 'vue'
 import store from './store'
 import App from './App.vue'
-import VueSocketIO from 'vue-x-socket.io'
+import VueSocketIO from 'vx-socketio'
 import SocketIO from 'socket.io-client'
 
 const options = { path: '/my-app/' }; //Options object to pass into SocketIO

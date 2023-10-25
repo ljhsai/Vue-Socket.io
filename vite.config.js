@@ -9,9 +9,9 @@ export default defineConfig({
     lib: {
       // Could also be a dictionary or array of multiple entry points
       entry: resolve(__dirname, 'src/lib/index.js'),
-      name: 'vue-x-socketio',
+      name: 'vx-socketio',
       // the proper extensions will be added
-      fileName: 'vue-x-socketio',
+      fileName: 'vx-socketio',
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
