@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/ljhsai/Vue-Socket.io" target="_blank">
-    <img width="250" src="https://raw.githubusercontent.com/ljhsai/Vue-Socket.io/master/docs/logo.png">
+    <img width="250" src="https://raw.githubusercontent.com/ljhsai/Vue-Socket.io/master/public/logo.png">
     </a>
 </p> 
 

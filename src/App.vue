@@ -1,17 +1,14 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import VueXSocketio from './components/VueXSocketio.vue'
 </script>
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+    <a href="https://github.com/ljhsai/Vue-Socket.io" target="_blank">
+      <img src="/logo.png" class="logo" alt="vue-x-socketio logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <VueXSocketio />
 </template>
 
 <style scoped>
